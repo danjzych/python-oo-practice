@@ -10,6 +10,12 @@ class WordFinder:
     >>> test.random() in ['mango', 'banana', 'strawberry', '', '# this is a comment', '# so is this']
     True
 
+    >>> test.random() in ['mango', 'banana', 'strawberry', '', '# this is a comment', '# so is this']
+    True
+
+    >>> test.random() in ['mango', 'banana', 'strawberry', '', '# this is a comment', '# so is this']
+    True
+
     """
 
     def __init__(self, filepath):
@@ -40,6 +46,13 @@ class SpecialWordFinder(WordFinder):
 
     >>> test.random() in ['mango', 'banana', 'strawberry']
     True
+
+    >>> test.random() in ['mango', 'banana', 'strawberry']
+    True
+
+    >>> test.random() in ['mango', 'banana', 'strawberry']
+    True
+
 
     '''
 
