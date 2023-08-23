@@ -52,8 +52,7 @@ class SpecialWordFinder(WordFinder):
 
     >>> test.random() in ['mango', 'banana', 'strawberry']
     True
-
-
+    
     '''
 
     def __repr__(self):
